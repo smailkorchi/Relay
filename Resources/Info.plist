@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleName</key><string>Relay</string>
+    <key>CFBundleDisplayName</key><string>Relay</string>
+    <key>CFBundleIdentifier</key><string>local.ismail.relay</string>
+    <key>CFBundleExecutable</key><string>Relay</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>1.1.0</string>
+    <key>CFBundleVersion</key><string>2</string>
+    <key>CFBundleIconFile</key><string>Relay</string>
+    <key>LSMinimumSystemVersion</key><string>14.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSRemovableVolumesUsageDescription</key><string>Relay transfers and verifies files on the drives you choose.</string>
+    <key>NSDownloadsFolderUsageDescription</key><string>Relay transfers the files you select from Downloads.</string>
+    <key>NSDocumentsFolderUsageDescription</key><string>Relay transfers files in the folders you choose.</string>
+    <key>NSDesktopFolderUsageDescription</key><string>Relay transfers the files you select from Desktop.</string>
+    <key>CFBundleDocumentTypes</key><array><dict>
+        <key>CFBundleTypeName</key><string>Files</string>
+        <key>CFBundleTypeRole</key><string>Viewer</string>
+        <key>LSHandlerRank</key><string>Alternate</string>
+        <key>LSItemContentTypes</key><array><string>public.data</string></array>
+    </dict></array>
+</dict></plist>

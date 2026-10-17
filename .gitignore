@@ -1,0 +1,9 @@
+.build/
+.swiftpm/
+dist/
+.DS_Store
+QA/
+VALIDATION.json
+release/
+*.dSYM/
+._*
